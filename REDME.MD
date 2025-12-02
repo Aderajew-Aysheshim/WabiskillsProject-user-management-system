@@ -1,35 +1,32 @@
 <div align="center">
   <h1>User Management System</h1>
-  <p><strong>Full-Stack Web Application with Node.js, Express.js & MySQL</strong></p>
-  <p>Built for <strong>WabiSkills Full Stack Bootcamp</strong></p>
-
-  <img src="https://raw.githubusercontent.com/https://github.com/Aderajew-Aysheshim/WabiskillsProject-user-management-system/main/screenshot-dashboard.png" alt="Dashboard Screenshot" width="800"/>
-  <p><i>Live Dashboard - Create, Edit, Delete Posts (Only Owner Allowed)</i></p>
+  <p><strong>Full-Stack Project •From  WabiSkills Bootcamp</strong></p>
+  <br/>
+  
+  <!-- LIVE DASHBOARD SCREENSHOT -->
+  <img src="https://raw.githubusercontent.com/Aderajew-Aysheshim/WabiskillsProject-user-management-system.git/main/screenshot-dashboard.png" alt="Live Dashboard" width="900"/>
+  <p><i>Live Application – Create, Edit & Delete Posts (Only Owner Allowed)</i></p>
 </div>
 
 ---
 
-### Project Screenshots
+### Official WabiSkills Project Document
 
-#### Live Application
-![Dashboard](screenshot-dasboard.png)
+| postscreenshot.png |userdbscreenshot.png |
+|-------|-------|
+| <img src="https://raw.githubusercontent.com/Aderajew-Aysheshim/WabiskillsProject-user-management-system.git/main/page1.png" width="400"/> | <img src="https://raw.githubusercontent.com//WabiskillsProject-user-management-system.git/main/.userdbscreenshot.png" width="400"/> |
 
+**This project implements 100% of the official requirements shown above**
 
+---
 
-### Features Implemented (100% Match)
-- User Signup & Login with JWT + bcrypt
-- Secure password hashing
-- Full CRUD on Posts (Create, Read, Update, Delete)
-- Only post owner can edit/delete
-- MySQL with proper foreign key
-- Beautiful responsive frontend
+### Features
+- Secure Signup & Login (bcrypt + JWT)
+- Full CRUD on Posts
+- Only owner can edit/delete
+- MySQL + Foreign Key
+- Beautiful Tailwind CSS frontend
 - Protected routes
-
-### Tech Stack
-- **Backend**: Node.js, Express.js
-- **Database**: MySQL
-- **Auth**: JWT + bcrypt
-- **Frontend**: HTML, Tailwind CSS, Vanilla JS
 
 ### How to Run
 ```bash

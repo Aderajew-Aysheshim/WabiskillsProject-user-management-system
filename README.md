@@ -1,1 +1,0 @@
-# WSP-user-management-system
