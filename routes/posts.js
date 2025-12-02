@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const db = require('../db');
-const { protect } = require('../middleware/auth');
+const { protect } = require('../middleware/auth'); // This line is the problem in Node 22
 
 // POST /api/posts - Create post
 router.post('/', protect, async(req, res) => {
