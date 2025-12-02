@@ -6,6 +6,7 @@ const authRoutes = require('./routes/auth');
 const postRoutes = require('./routes/posts');
 
 const app = express();
+app.use(express.static('public'));
 
 // Middleware
 app.use(bodyParser.json());
